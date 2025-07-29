@@ -1,0 +1,85 @@
+[project]
+name = "graph-retriever"
+version = "0.1.0"
+description = "Retriever combining unstructured similarity and structured document traversal."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+
+keywords = [
+    "graph RAG",
+    "RAG",
+]
+
+classifiers = [
+    "Development Status :: 4 - Beta",
+
+    # Supported Python Versions
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+
+    # Topic
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+
+    # Intended Audience(s)
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+
+    # License
+    "License :: OSI Approved :: Apache Software License",
+
+    # Other Details
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "numpy>=1.26.4",
+    "typing-extensions>=4.12.2",
+    "pytest>=8.3.4",
+    "immutabledict>=4.2.1",
+]
+
+[project.urls]
+"Homepage" = "https://datastax.github.io/graph-rag"
+"GitHub" = "https://github.com/datastax/graph-rag"
+"Bug Reports" = "https://github.com/datastax/graph-rag/issues"
+
+[project.optional-dependencies]
+simsimd = [
+    "simsimd>=6.2.1",
+]
+testing = [
+    "pytest>=8.3.4",
+]
+
+[tool.deptry.package_module_name_map]
+immutabledict = "immutabledict"
+numpy = "numpy"
+pytest = "pytest"
+simsimd = "simsimd"
+typing-extensions = "typing_extensions"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+pythonpath = ["."]
+testpaths = ["tests"]
+
+
+[tool.uv.sources]
+
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.4",
+]
+

@@ -1,0 +1,30 @@
+{
+  "name": "@graph-rag-js/graph-retriever",
+  "version": "0.1.0",
+  "description": "Retriever combining unstructured similarity and structured document traversal.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "vitest",
+    "test:run": "vitest run"
+  },
+  "keywords": [
+    "graph RAG",
+    "RAG",
+    "javascript",
+    "typescript"
+  ],
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "@types/lodash": "^4.14.200"
+  }
+}
