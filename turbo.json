@@ -7,8 +7,8 @@
       "inputs": ["$TURBO_DEFAULT$", ".env*"],
       "outputs": ["dist/**", ".next/**", "!.next/cache/**"]
     },
-    "build#langchain-graph-retriever": {
-      "dependsOn": ["graph-retriever#build"],
+    "build#@graph-rag-js/langchain-graph-retriever": {
+      "dependsOn": ["@graph-rag-js/graph-retriever#build"],
       "inputs": ["$TURBO_DEFAULT$", ".env*"],
       "outputs": ["dist/**"]
     },
