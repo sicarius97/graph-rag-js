@@ -2,7 +2,7 @@
  * Defines the base class for vector store adapters.
  */
 
-import { Content, Adapter } from '@graphrag-js/graph-retriever';
+import { Content, Adapter } from '@graph-rag-js/graph-retriever';
 import { Document } from '@langchain/core/documents';
 import { Embeddings } from '@langchain/core/embeddings';
 import { VectorStore } from '@langchain/core/vectorstores';

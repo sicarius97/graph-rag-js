@@ -2,7 +2,7 @@
  * Infers the appropriate adapter for a given vector store.
  */
 
-import { Adapter, Content } from '@graphrag-js/graph-retriever';
+import { Adapter, Content } from '@graph-rag-js/graph-retriever';
 import { VectorStore } from '@langchain/core/vectorstores';
 
 const ADAPTERS_PKG = "./";
