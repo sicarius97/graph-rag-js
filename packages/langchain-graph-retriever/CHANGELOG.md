@@ -1,5 +1,13 @@
 # @graph-rag-js/langchain-graph-retriever
 
+## 1.0.2
+
+### Patch Changes
+
+- d40b8e2: Fixed more package resolution, cleaned up python, and added lots of tests
+- Updated dependencies [d40b8e2]
+  - @sicarius97/graph-retriever@1.1.0
+
 ## 1.0.1
 
 ### Patch Changes
