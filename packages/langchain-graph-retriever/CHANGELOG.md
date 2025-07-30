@@ -1,5 +1,11 @@
 # @graph-rag-js/langchain-graph-retriever
 
+## 1.0.3
+
+### Patch Changes
+
+- 59394ce: Added new package
+
 ## 1.0.2
 
 ### Patch Changes
