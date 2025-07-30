@@ -21,5 +21,15 @@
   },
   "dependencies": {
     "@changesets/cli": "^2.29.5"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sicarius97/graph-rag-js.git"
   }
 }
