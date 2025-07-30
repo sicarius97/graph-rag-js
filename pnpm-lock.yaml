@@ -83,8 +83,8 @@ importers:
         specifier: ^0.3.29
         version: 0.3.66
       '@sicarius97/graph-retriever':
-        specifier: workspace:*
-        version: link:../graph-retriever
+        specifier: ^1.0.0
+        version: 1.0.0
       networkx-js:
         specifier: ^1.0.0
         version: 1.0.0
@@ -1257,6 +1257,9 @@ packages:
     resolution: {integrity: sha512-M/fKi4sasCdM8i0aWJjCSFm2qEnYRR8AMLG2kxp6wD13+tMGA4Z1tVAuHkNRjud5SW2EM3naLuK35w9twvf6aA==}
     cpu: [x64]
     os: [win32]
+
+  '@sicarius97/graph-retriever@1.0.0':
+    resolution: {integrity: sha512-X9HSHWhbCUGxBFvTI+eDwJaU/YbafprzsXS4Pt4LQmQz1I9WVrvirhkd/wcKd+qtrwnYsOkwd+grtU3zPSUoJg==, tarball: https://npm.pkg.github.com/download/@sicarius97/graph-retriever/1.0.0/cb4a3c44636705aff900746eab84c2293244a46b}
 
   '@sinclair/typebox@0.27.8':
     resolution: {integrity: sha512-+Fj43pSMwJs4KRrH/938Uf+uAELIgVBmQzg/q1YG10djyfA3TnrU8N8XzqCh/okZdszqBQTZf96idMfE5lnwTA==}
@@ -5014,6 +5017,11 @@ snapshots:
 
   '@rollup/rollup-win32-x64-msvc@4.45.1':
     optional: true
+
+  '@sicarius97/graph-retriever@1.0.0':
+    dependencies:
+      '@types/lodash': 4.17.20
+      lodash: 4.17.21
 
   '@sinclair/typebox@0.27.8': {}
 
