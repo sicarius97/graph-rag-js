@@ -80,7 +80,7 @@ importers:
   packages/langchain-graph-retriever:
     dependencies:
       '@graph-rag-js/graph-retriever':
-        specifier: ../graph-retriever
+        specifier: workspace:*
         version: link:../graph-retriever
       '@langchain/core':
         specifier: ^0.3.29

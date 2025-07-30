@@ -22,7 +22,7 @@
   "author": "",
   "license": "Apache-2.0",
   "dependencies": {
-    "@graph-rag-js/graph-retriever": "../graph-retriever",
+    "@graph-rag-js/graph-retriever": "workspace:*",
     "@langchain/core": "^0.3.29",
     "networkx-js": "^1.0.0"
   },
