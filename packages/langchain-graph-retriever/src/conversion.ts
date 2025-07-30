@@ -1,4 +1,4 @@
-import { Content, Node } from '@graph-rag-js/graph-retriever';
+import { Content, Node } from '@sicarius97/graph-retriever';
 import { Document } from '@langchain/core/documents';
 
 export const METADATA_EMBEDDING_KEY = "__embedding";

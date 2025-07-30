@@ -6,7 +6,7 @@ import {
   EdgeSpec, 
   Strategy, 
   Eager 
-} from '@graph-rag-js/graph-retriever';
+} from '@sicarius97/graph-retriever';
 import { Document } from '@langchain/core/documents';
 import { BaseRetriever } from '@langchain/core/retrievers';
 import { VectorStore } from '@langchain/core/vectorstores';

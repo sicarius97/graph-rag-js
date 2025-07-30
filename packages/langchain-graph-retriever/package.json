@@ -1,5 +1,5 @@
 {
-  "name": "@graph-rag-js/langchain-graph-retriever",
+  "name": "@sicarius97/langchain-graph-retriever",
   "version": "1.0.0",
   "description": "LangChain retriever for traversing document graphs on top of vector-based similarity search.",
   "main": "dist/index.js",
@@ -22,7 +22,7 @@
   "author": "",
   "license": "Apache-2.0",
   "dependencies": {
-    "@graph-rag-js/graph-retriever": "workspace:*",
+    "@sicarius97/graph-retriever": "workspace:*",
     "@langchain/core": "^0.3.29",
     "networkx-js": "^1.0.0"
   },

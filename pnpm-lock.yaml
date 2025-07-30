@@ -79,12 +79,12 @@ importers:
 
   packages/langchain-graph-retriever:
     dependencies:
-      '@graph-rag-js/graph-retriever':
-        specifier: workspace:*
-        version: link:../graph-retriever
       '@langchain/core':
         specifier: ^0.3.29
         version: 0.3.66
+      '@sicarius97/graph-retriever':
+        specifier: workspace:*
+        version: link:../graph-retriever
       networkx-js:
         specifier: ^1.0.0
         version: 1.0.0
