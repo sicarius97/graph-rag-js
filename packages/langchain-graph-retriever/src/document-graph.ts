@@ -9,7 +9,7 @@ import {
   EdgeFunction, 
   EdgeSpec, 
   MetadataEdgeFunction 
-} from '@graph-rag-js/graph-retriever';
+} from '@sicarius97/graph-retriever';
 
 // Using a simplified graph implementation since networkx-js might not have all features
 interface GraphNode {
