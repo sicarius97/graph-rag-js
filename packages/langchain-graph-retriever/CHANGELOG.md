@@ -1,5 +1,11 @@
 # @graph-rag-js/langchain-graph-retriever
 
+## 1.0.1
+
+### Patch Changes
+
+- a5d81cc: fixed package resolution
+
 ## 1.0.0
 
 ### Major Changes
