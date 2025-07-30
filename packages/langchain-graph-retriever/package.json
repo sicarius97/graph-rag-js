@@ -22,7 +22,7 @@
   "author": "",
   "license": "Apache-2.0",
   "dependencies": {
-    "@sicarius97/graph-retriever": "workspace:*",
+    "@sicarius97/graph-retriever": "^1.0.0",
     "@langchain/core": "^0.3.29",
     "networkx-js": "^1.0.0"
   },
