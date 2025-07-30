@@ -9,7 +9,7 @@ jest.mock('@langchain/core/documents', () => ({
   Document: jest.fn().mockImplementation((data) => data)
 }));
 
-jest.mock('@graphrag-js/graph-retriever', () => ({
+jest.mock('@sicarius97/graph-retriever', () => ({
   MetadataEdgeFunction: jest.fn().mockImplementation((edges) => {
     return jest.fn().mockReturnValue({
       incoming: [],

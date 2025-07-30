@@ -3,7 +3,7 @@
  */
 
 import { nodeToDoc, docToContent, METADATA_EMBEDDING_KEY } from '../src/conversion';
-import { Edge } from '@graphrag-js/graph-retriever';
+import { Edge } from '@sicarius97/graph-retriever';
 
 // Mock the dependencies
 jest.mock('@langchain/core/documents', () => ({

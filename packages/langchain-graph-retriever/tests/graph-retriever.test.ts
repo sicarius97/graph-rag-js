@@ -5,7 +5,7 @@
 import { GraphRetriever } from '../src/graph-retriever';
 
 // Mock the dependencies since they're not available
-jest.mock('@graphrag-js/graph-retriever', () => ({
+jest.mock('@sicarius97/graph-retriever', () => ({
   traverse: jest.fn(),
   atraverse: jest.fn(),
   Eager: jest.fn().mockImplementation(() => ({})),
