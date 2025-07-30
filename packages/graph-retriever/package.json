@@ -1,6 +1,6 @@
 {
   "name": "@sicarius97/graph-retriever",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Retriever combining unstructured similarity and structured document traversal.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
